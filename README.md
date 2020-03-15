@@ -16,7 +16,7 @@ Clone and build the repository in Xcode.
 
 You can find the compiled binary by clicking on the 'FindSha' item under 'Products' in the project explorer.
 
-<img width="100%" alt="XcodeFindShaProducts" src="https://user-images.githubusercontent.com/38786434/76707156-d62be900-66e4-11ea-8c5a-ada0874f613c.gif">
+<img width="480" alt="XcodeFindShaProducts" src="https://user-images.githubusercontent.com/38786434/76707156-d62be900-66e4-11ea-8c5a-ada0874f613c.gif">
 
 The detail inspector will show the full path and clicking the arrow next to the path will open in in Finder. From here you can just copy the binary to someplace on your file system.
 
