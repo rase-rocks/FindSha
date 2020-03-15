@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		D4119C4A2244CCA7005909B2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C492244CCA7005909B2 /* main.swift */; };
+		D4119C512244CCF2005909B2 /* Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C502244CCF2005909B2 /* Arguments.swift */; };
+		D4119C542244CD55005909B2 /* ArrayElementAfterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C532244CD55005909B2 /* ArrayElementAfterExtension.swift */; };
+		D4119C562244CD97005909B2 /* CLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C552244CD97005909B2 /* CLI.swift */; };
+		D4119C6A2244CEDD005909B2 /* FindShaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C692244CEDD005909B2 /* FindShaTests.swift */; };
+		D4119C6F2244CF12005909B2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C492244CCA7005909B2 /* main.swift */; };
+		D4119C702244CF15005909B2 /* CLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C552244CD97005909B2 /* CLI.swift */; };
+		D4119C712244CF17005909B2 /* Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C502244CCF2005909B2 /* Arguments.swift */; };
+		D4119C722244CF1A005909B2 /* ArrayElementAfterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C532244CD55005909B2 /* ArrayElementAfterExtension.swift */; };
+		D4119C7422452E72005909B2 /* fns.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C7322452E72005909B2 /* fns.swift */; };
+		D4119C7522452E72005909B2 /* fns.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C7322452E72005909B2 /* fns.swift */; };
+		D4119C7822452F33005909B2 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C7722452F33005909B2 /* Hash.swift */; };
+		D4119C7922452F33005909B2 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C7722452F33005909B2 /* Hash.swift */; };
+		D4119C7B22452F63005909B2 /* NSDataHexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C7A22452F63005909B2 /* NSDataHexString.swift */; };
+		D4119C7C22452F63005909B2 /* NSDataHexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C7A22452F63005909B2 /* NSDataHexString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +39,27 @@
 /* Begin PBXFileReference section */
 		D4119C462244CCA7005909B2 /* FindSha */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FindSha; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4119C492244CCA7005909B2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D4119C502244CCF2005909B2 /* Arguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arguments.swift; sourceTree = "<group>"; };
+		D4119C532244CD55005909B2 /* ArrayElementAfterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayElementAfterExtension.swift; sourceTree = "<group>"; };
+		D4119C552244CD97005909B2 /* CLI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLI.swift; sourceTree = "<group>"; };
+		D4119C672244CEDD005909B2 /* FindShaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindShaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4119C692244CEDD005909B2 /* FindShaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindShaTests.swift; sourceTree = "<group>"; };
+		D4119C6B2244CEDD005909B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4119C7322452E72005909B2 /* fns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fns.swift; sourceTree = "<group>"; };
+		D4119C7622452EEA005909B2 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		D4119C7722452F33005909B2 /* Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
+		D4119C7A22452F63005909B2 /* NSDataHexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDataHexString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D4119C432244CCA7005909B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4119C642244CEDD005909B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				D4119C482244CCA7005909B2 /* FindSha */,
+				D4119C682244CEDD005909B2 /* FindShaTests */,
 				D4119C472244CCA7005909B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				D4119C462244CCA7005909B2 /* FindSha */,
+				D4119C672244CEDD005909B2 /* FindShaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +90,33 @@
 		D4119C482244CCA7005909B2 /* FindSha */ = {
 			isa = PBXGroup;
 			children = (
+				D4119C522244CD44005909B2 /* Extensions */,
 				D4119C492244CCA7005909B2 /* main.swift */,
+				D4119C502244CCF2005909B2 /* Arguments.swift */,
+				D4119C552244CD97005909B2 /* CLI.swift */,
+				D4119C7322452E72005909B2 /* fns.swift */,
+				D4119C7622452EEA005909B2 /* BridgingHeader.h */,
+				D4119C7722452F33005909B2 /* Hash.swift */,
 			);
 			path = FindSha;
+			sourceTree = "<group>";
+		};
+		D4119C522244CD44005909B2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D4119C532244CD55005909B2 /* ArrayElementAfterExtension.swift */,
+				D4119C7A22452F63005909B2 /* NSDataHexString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D4119C682244CEDD005909B2 /* FindShaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4119C692244CEDD005909B2 /* FindShaTests.swift */,
+				D4119C6B2244CEDD005909B2 /* Info.plist */,
+			);
+			path = FindShaTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +139,23 @@
 			productReference = D4119C462244CCA7005909B2 /* FindSha */;
 			productType = "com.apple.product-type.tool";
 		};
+		D4119C662244CEDD005909B2 /* FindShaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4119C6C2244CEDD005909B2 /* Build configuration list for PBXNativeTarget "FindShaTests" */;
+			buildPhases = (
+				D4119C632244CEDD005909B2 /* Sources */,
+				D4119C642244CEDD005909B2 /* Frameworks */,
+				D4119C652244CEDD005909B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindShaTests;
+			productName = FindShaTests;
+			productReference = D4119C672244CEDD005909B2 /* FindShaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -89,11 +163,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Robert Atherton";
 				TargetAttributes = {
 					D4119C452244CCA7005909B2 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
+					};
+					D4119C662244CEDD005909B2 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -103,6 +182,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D4119C3D2244CCA7005909B2;
 			productRefGroup = D4119C472244CCA7005909B2 /* Products */;
@@ -110,16 +190,48 @@
 			projectRoot = "";
 			targets = (
 				D4119C452244CCA7005909B2 /* FindSha */,
+				D4119C662244CEDD005909B2 /* FindShaTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4119C652244CEDD005909B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D4119C422244CCA7005909B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4119C7422452E72005909B2 /* fns.swift in Sources */,
+				D4119C7822452F33005909B2 /* Hash.swift in Sources */,
+				D4119C562244CD97005909B2 /* CLI.swift in Sources */,
+				D4119C512244CCF2005909B2 /* Arguments.swift in Sources */,
 				D4119C4A2244CCA7005909B2 /* main.swift in Sources */,
+				D4119C542244CD55005909B2 /* ArrayElementAfterExtension.swift in Sources */,
+				D4119C7B22452F63005909B2 /* NSDataHexString.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4119C632244CEDD005909B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4119C712244CF17005909B2 /* Arguments.swift in Sources */,
+				D4119C6F2244CF12005909B2 /* main.swift in Sources */,
+				D4119C6A2244CEDD005909B2 /* FindShaTests.swift in Sources */,
+				D4119C7522452E72005909B2 /* fns.swift in Sources */,
+				D4119C702244CF15005909B2 /* CLI.swift in Sources */,
+				D4119C722244CF1A005909B2 /* ArrayElementAfterExtension.swift in Sources */,
+				D4119C7922452F33005909B2 /* Hash.swift in Sources */,
+				D4119C7C22452F63005909B2 /* NSDataHexString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,20 +356,64 @@
 		D4119C4E2244CCA7005909B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LR9W9X55VW;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = FindSha/BridgingHeader.h;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		D4119C4F2244CCA7005909B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LR9W9X55VW;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = FindSha/BridgingHeader.h;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D4119C6D2244CEDD005909B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LR9W9X55VW;
+				INFOPLIST_FILE = FindShaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rocks.rase.FindShaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = FindSha/BridgingHeader.h;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D4119C6E2244CEDD005909B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LR9W9X55VW;
+				INFOPLIST_FILE = FindShaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rocks.rase.FindShaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = FindSha/BridgingHeader.h;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -278,6 +434,15 @@
 			buildConfigurations = (
 				D4119C4E2244CCA7005909B2 /* Debug */,
 				D4119C4F2244CCA7005909B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4119C6C2244CEDD005909B2 /* Build configuration list for PBXNativeTarget "FindShaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4119C6D2244CEDD005909B2 /* Debug */,
+				D4119C6E2244CEDD005909B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
