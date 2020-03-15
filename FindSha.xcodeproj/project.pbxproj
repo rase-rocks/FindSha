@@ -49,6 +49,7 @@
 		D4119C7622452EEA005909B2 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		D4119C7722452F33005909B2 /* Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
 		D4119C7A22452F63005909B2 /* NSDataHexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDataHexString.swift; sourceTree = "<group>"; };
+		D4BEE1FA241E3DAF002D85DC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 		D4119C3D2244CCA7005909B2 = {
 			isa = PBXGroup;
 			children = (
+				D4BEE1FA241E3DAF002D85DC /* README.md */,
 				D4119C482244CCA7005909B2 /* FindSha */,
 				D4119C682244CEDD005909B2 /* FindShaTests */,
 				D4119C472244CCA7005909B2 /* Products */,
