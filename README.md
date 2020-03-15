@@ -2,7 +2,7 @@
 
 FindSha is a very simple macOS command line utility to search a directory for files with the given sha256 hash.
 
-This document assumes the use of macOS Catalina, and a knowledge of terminal and command line programs, however the source should be portable to any system with a Swift compiler, such as Linux based systems, the only dependency is the CommonCrypto library that is available in macOS. It should be noted however that I have not tested this and I have only ever built the binary with Xcode, so build instructions for others operating system are not included here as yet.
+This document assumes the use of macOS Catalina, and a knowledge of terminal and command line programs. It was designed and built with Xcode and has therefore not been tested with other Swift implementations
 
 ## Why
 

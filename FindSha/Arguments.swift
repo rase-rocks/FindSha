@@ -37,14 +37,14 @@ struct Arguments {
         
     }
     
-    static func getPath(fullPath: String?) -> String {
-        
-        guard let fullPath = fullPath else { return "" }
-        
-        return absPath(fullPath.split(separator: "/")
-            .dropLast()
-            .joined(separator: "/"))
-        
-    }
+//    static func getPath(fullPath: String?) -> String {
+//
+//        guard let fullPath = fullPath else { return "" }
+//
+//        return absPath(fullPath.split(separator: "/")
+//            .dropLast()
+//            .joined(separator: "/"))
+//
+//    }
     
 }
