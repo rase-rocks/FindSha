@@ -16,7 +16,11 @@ Clone and build the repository in Xcode.
 
 You can find the compiled binary by clicking on the 'FindSha' item under 'Products' in the project explorer.
 
+<img width="100%" alt="XcodeFindShaProducts" src="https://user-images.githubusercontent.com/38786434/76707156-d62be900-66e4-11ea-8c5a-ada0874f613c.gif">
+
 The detail inspector will show the full path and clicking the arrow next to the path will open in in Finder. From here you can just copy the binary to someplace on your file system.
+
+<img src="https://user-images.githubusercontent.com/38786434/76706224-cbba2100-66dd-11ea-88ed-13cf7ffa2b9c.png" alt="Identity Inspector" width="50%"/>
 
 I tend to store simple CLI tools like this in a folder `~/scripts` so I then add an alias to my .zshrc file like the following:
 
@@ -26,8 +30,10 @@ alias findsha='~/scripts/FindSha'
 
 ## Usage
 
---in, -i    :   The location to search
---sha, -s   :   The sha256 hash to search for
+| Long Form | Short Form  | Description                    |
+|-----------|-------------|--------------------------------|
+| --in      | -i          | The location to search         |
+| --sha     | -s          | The sha256 hash to search for  |
     
 Rather than typing in a sha256 hash it is probably easier to copy the hash from somewhere else and use the command below.
 
