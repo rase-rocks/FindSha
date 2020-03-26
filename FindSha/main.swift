@@ -34,8 +34,10 @@ do {
     Correct Usage
     =============
     
-    --in, -i    :   The location to search
-    --sha, -s   :   The sha256 hash to search for
+    --in, -i        :   The location to search
+    --sha, -s       :   The hash to search for using default sha256
+    --sha256, -s256 :   The sha256 hash to search for
+    --sha512, -s512 :   The sha512 hash to search for
     
     findsha -i <path to search> -s <hash to search for>
     

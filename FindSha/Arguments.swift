@@ -12,6 +12,7 @@ struct Arguments {
     
     var searchPath      : String?
     var searchSha       : String?
+    var algorithm       : HashAlgorithm?
     
     init(commandLineArguments arguments: [String]) {
         
@@ -21,12 +22,19 @@ struct Arguments {
 
             case "--in", "-i":
                 if let path = arguments.element(after: index) {
-                    searchPath = path
+                    searchPath  = path
                 }
                 
-            case "--sha", "-s":
+            case "--sha", "-s", "--sha256", "-s256":
                 if let sha = arguments.element(after: index) {
-                    searchSha = sha
+                    searchSha   = sha
+                    algorithm   = .sha256
+                }
+                
+            case "--sha512", "-s512":
+                if let sha = arguments.element(after: index) {
+                    searchSha   = sha
+                    algorithm   = .sha512
                 }
 
             default:
@@ -36,15 +44,5 @@ struct Arguments {
         }
         
     }
-    
-//    static func getPath(fullPath: String?) -> String {
-//
-//        guard let fullPath = fullPath else { return "" }
-//
-//        return absPath(fullPath.split(separator: "/")
-//            .dropLast()
-//            .joined(separator: "/"))
-//
-//    }
     
 }
