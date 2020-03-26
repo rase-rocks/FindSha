@@ -1,6 +1,8 @@
 # FindSha
 
-FindSha is a very simple macOS command line utility to search a directory for files with the given sha256 hash.
+FindSha is a very simple macOS command line utility to search a directory for files with the given sha hash.
+
+The default hash algorithm it will use is sha256, but sha512 can also be specified.
 
 This document assumes the use of macOS Catalina, and a knowledge of terminal and command line programs. It was designed and built with Xcode and has therefore not been tested with other Swift implementations
 
@@ -28,12 +30,16 @@ I tend to store simple CLI tools like this in a folder `~/scripts` so I then add
 alias findsha='~/scripts/FindSha'
 ```
 
+You could also add the folder to your `PATH` environment variable.
+
 ## Usage
 
 | Long Form | Short Form  | Description                    |
 |-----------|-------------|--------------------------------|
 | --in      | -i          | The location to search         |
-| --sha     | -s          | The sha256 hash to search for  |
+| --sha     | -s          | The hash to search for (sha256)|
+| --sha256  | -s256       | Explicitly search for sha256   |
+| --sha512  | -s512       | The sha512 hash to search for  |
     
 Rather than typing in a sha256 hash it is probably easier to copy the hash from somewhere else and use the command below.
 
@@ -59,4 +65,6 @@ SHA256(important-document.pdf)= e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c
 The hash for `important-document.pdf` therefore is `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`.
 
 (The file was zero bytes long in this case)
+
+The process is the same for sha512 hashes, just replace `sha256` with `sha512`.
 
