@@ -1,6 +1,6 @@
 # FindSha
 
-FindSha is a very simple macOS command line utility to search a directory for files with the given sha hash.
+FindSha is a very simple macOS command line utility to recursively search a directory for files with the given sha hash.
 
 The default hash algorithm it will use is sha256, but sha512 can also be specified.
 

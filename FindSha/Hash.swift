@@ -38,16 +38,7 @@ struct Hash {
 }
 
 extension Hash {
-    
-//    static func process(string: String, using algorithm: HashAlgorithm) -> String {
-//        
-//        guard let stringData    = string.data(using: String.Encoding.utf8) else  { return "" }
-//        let nsData              = stringData as NSData
-//        
-//        return Hash.digest(algorithm: algorithm)(nsData).hexString
-//        
-//    }
-    
+        
     static func process(data: NSData, using algorithm: HashAlgorithm) -> String {
         return Hash.digest(algorithm: algorithm)(data).hexString
     }

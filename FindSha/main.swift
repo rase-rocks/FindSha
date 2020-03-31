@@ -10,7 +10,7 @@ do {
         throw OpeningError.noInput
     }
     
-    try tool.run()
+    try tool.runRecursive()
     
 } catch {
     

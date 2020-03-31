@@ -15,8 +15,6 @@
 		D4119C702244CF15005909B2 /* CLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C552244CD97005909B2 /* CLI.swift */; };
 		D4119C712244CF17005909B2 /* Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C502244CCF2005909B2 /* Arguments.swift */; };
 		D4119C722244CF1A005909B2 /* ArrayElementAfterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C532244CD55005909B2 /* ArrayElementAfterExtension.swift */; };
-		D4119C7422452E72005909B2 /* fns.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C7322452E72005909B2 /* fns.swift */; };
-		D4119C7522452E72005909B2 /* fns.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C7322452E72005909B2 /* fns.swift */; };
 		D4119C7822452F33005909B2 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C7722452F33005909B2 /* Hash.swift */; };
 		D4119C7922452F33005909B2 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C7722452F33005909B2 /* Hash.swift */; };
 		D4119C7B22452F63005909B2 /* NSDataHexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4119C7A22452F63005909B2 /* NSDataHexString.swift */; };
@@ -49,7 +47,6 @@
 		D4119C552244CD97005909B2 /* CLI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLI.swift; sourceTree = "<group>"; };
 		D4119C672244CEDD005909B2 /* FindShaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindShaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4119C6B2244CEDD005909B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4119C7322452E72005909B2 /* fns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fns.swift; sourceTree = "<group>"; };
 		D4119C7622452EEA005909B2 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		D4119C7722452F33005909B2 /* Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
 		D4119C7A22452F63005909B2 /* NSDataHexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDataHexString.swift; sourceTree = "<group>"; };
@@ -106,7 +103,6 @@
 				D4119C492244CCA7005909B2 /* main.swift */,
 				D4119C502244CCF2005909B2 /* Arguments.swift */,
 				D4119C552244CD97005909B2 /* CLI.swift */,
-				D4119C7322452E72005909B2 /* fns.swift */,
 				D4119C7622452EEA005909B2 /* BridgingHeader.h */,
 				D4119C7722452F33005909B2 /* Hash.swift */,
 			);
@@ -230,7 +226,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4119C7422452E72005909B2 /* fns.swift in Sources */,
 				D4119C7822452F33005909B2 /* Hash.swift in Sources */,
 				D4119C562244CD97005909B2 /* CLI.swift in Sources */,
 				D4119C512244CCF2005909B2 /* Arguments.swift in Sources */,
@@ -247,7 +242,6 @@
 				D4119C712244CF17005909B2 /* Arguments.swift in Sources */,
 				D4BEE206241E62EF002D85DC /* ArrayElementAfterTests.swift in Sources */,
 				D4119C6F2244CF12005909B2 /* main.swift in Sources */,
-				D4119C7522452E72005909B2 /* fns.swift in Sources */,
 				D4119C702244CF15005909B2 /* CLI.swift in Sources */,
 				D4119C722244CF1A005909B2 /* ArrayElementAfterExtension.swift in Sources */,
 				D4BEE1FC241E573E002D85DC /* HashTests.swift in Sources */,
