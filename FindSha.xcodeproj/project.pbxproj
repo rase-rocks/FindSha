@@ -57,6 +57,7 @@
 		D4BEE201241E5A5D002D85DC /* empty.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = empty.txt; sourceTree = "<group>"; };
 		D4BEE203241E6203002D85DC /* ArgumentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsTests.swift; sourceTree = "<group>"; };
 		D4BEE205241E62EF002D85DC /* ArrayElementAfterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayElementAfterTests.swift; sourceTree = "<group>"; };
+		D4F0A1032449E4B0004228A1 /* Issues.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Issues.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 		D4119C3D2244CCA7005909B2 = {
 			isa = PBXGroup;
 			children = (
+				D4F0A1032449E4B0004228A1 /* Issues.md */,
 				D4BEE1FA241E3DAF002D85DC /* README.md */,
 				D4119C482244CCA7005909B2 /* FindSha */,
 				D4119C682244CEDD005909B2 /* FindShaTests */,
