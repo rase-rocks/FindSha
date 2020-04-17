@@ -3,8 +3,7 @@ import Foundation
 struct Arguments {
     
     var searchPath      : String?
-    var searchSha       : String?
-    var algorithm       : HashAlgorithm?
+    var searchDigest    : SHADigest?
     
     init(commandLineArguments arguments: [String]) {
         
@@ -13,21 +12,17 @@ struct Arguments {
             switch argument.lowercased() {
 
             case "--in", "-i":
+                
                 if let path = arguments.element(after: index) {
-                    searchPath  = path
+                    searchPath = path
                 }
+                                
+            case "--sha", "-s":
                 
-            case "--sha", "-s", "--sha256", "-s256":
-                if let sha = arguments.element(after: index) {
-                    searchSha   = sha
-                    algorithm   = .sha256
-                }
+                guard let shaHexString = arguments.element(after: index),
+                    let sha = SHADigestImporter.shas(from: shaHexString).first else { break }
                 
-            case "--sha512", "-s512":
-                if let sha = arguments.element(after: index) {
-                    searchSha   = sha
-                    algorithm   = .sha512
-                }
+                searchDigest = sha
 
             default:
                 break

@@ -3,26 +3,23 @@ import Foundation
 public final class CLI {
     
     private let searchPath  : String
-    private let searchSha   : String
-    private let algorithm   : HashAlgorithm
+    private let searchDigest: SHADigest
     
     public init?(arguments: [String] = CommandLine.arguments) {
         
         let args            = Arguments(commandLineArguments: arguments)
         
-        guard let searchSha = args.searchSha,
-            let searchPath  = args.searchPath,
-            let algorithm   = args.algorithm else {
+        guard let searchPath  = args.searchPath,
+            let searchDigest  = args.searchDigest else {
                 return nil
         }
         
         self.searchPath     = searchPath
-        self.searchSha      = searchSha
-        self.algorithm      = algorithm
+        self.searchDigest   = searchDigest
         
     }
     
-    public func runRecursive() throws {
+    public func runRecursive() {
         
         let url                 = absURL(searchPath)
         guard let enumerator    = FileManager.default.enumerator(at: url, includingPropertiesForKeys: nil) else {
@@ -30,28 +27,21 @@ public final class CLI {
             return
         }
         
-        print(CLI.startMessage(hash: searchSha, algorithm: algorithm.rawValue, path: searchPath))
+        print(CLI.startMessage(hash: searchDigest.hex, algorithm: searchDigest.algorithm.rawValue, path: searchPath))
         
         var count               = 0
         
         for case let fileURL as URL in enumerator {
             if !fileURL.hasDirectoryPath {
-                                
-                do {
+                                                
+                if let hashData = searchDigest.algorithm.hash(url: fileURL) {
                     
-                    let data        = try NSData(contentsOf: fileURL, options: [])
-                    
-                    let hash        = Hash.process(data: data, using: algorithm)
-                    
-                    if hash == searchSha {
+                    if searchDigest.isEqual(toDigest: hashData) {
+                        
                         count += 1
-                        print(CLI.foundMessage(hash: searchSha, url: fileURL))
+                        print(CLI.foundMessage(hash: searchDigest.hex, url: fileURL))
+                        
                     }
-                    
-                } catch {
-                    
-                    print("\t\(error)")
-                    continue
                     
                 }
                 
@@ -97,7 +87,7 @@ extension CLI {
         Starting Search - \(algorithm)
         ========================
 
-        Searching in \(path)
+        Recursively Searching in \(path)
 
         Searching for \(hash)
         

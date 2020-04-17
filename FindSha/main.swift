@@ -10,7 +10,7 @@ do {
         throw OpeningError.noInput
     }
     
-    try tool.runRecursive()
+    tool.runRecursive()
     
 } catch {
     
@@ -27,9 +27,7 @@ do {
     =============
     
     --in, -i        :   The location to search
-    --sha, -s       :   The hash to search for using default sha256
-    --sha256, -s256 :   The sha256 hash to search for
-    --sha512, -s512 :   The sha512 hash to search for
+    --sha, -s       :   The hash to search for
     
     findsha -i <path to search> -s <hash to search for>
     
@@ -50,11 +48,11 @@ do {
     
     This example will find the above hash in the current working directory.
     
-    To find a sha hash currently in the clipboard try the following:
+    To find a sha hash currently in the pasteboard try the following:
     
     [ % findsha -i ./ -s $(pbpaste) ]
     
-    This example subsitutes the sha to find with the data contained in the clipboard
+    This example subsitutes the sha to find with the data contained in the pasteboard
     
     
     

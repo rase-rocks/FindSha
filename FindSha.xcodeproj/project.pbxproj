@@ -25,6 +25,26 @@
 		D4BEE202241E5A5D002D85DC /* empty.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4BEE201241E5A5D002D85DC /* empty.txt */; };
 		D4BEE204241E6203002D85DC /* ArgumentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BEE203241E6203002D85DC /* ArgumentsTests.swift */; };
 		D4BEE206241E62EF002D85DC /* ArrayElementAfterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BEE205241E62EF002D85DC /* ArrayElementAfterTests.swift */; };
+		D4F0A1052449E57D004228A1 /* DataHexStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0A1042449E57D004228A1 /* DataHexStringExtension.swift */; };
+		D4F0A1062449E57D004228A1 /* DataHexStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0A1042449E57D004228A1 /* DataHexStringExtension.swift */; };
+		D4F0A1092449E5F2004228A1 /* DataHexStringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0A1082449E5F2004228A1 /* DataHexStringExtensionTests.swift */; };
+		D4F0A10B2449E66B004228A1 /* URLProcessStreamExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0A10A2449E66B004228A1 /* URLProcessStreamExtension.swift */; };
+		D4F0A10C2449E66B004228A1 /* URLProcessStreamExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0A10A2449E66B004228A1 /* URLProcessStreamExtension.swift */; };
+		D4F0A10F2449E6E1004228A1 /* SHADigest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0A10E2449E6E1004228A1 /* SHADigest.swift */; };
+		D4F0A1102449E6E1004228A1 /* SHADigest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0A10E2449E6E1004228A1 /* SHADigest.swift */; };
+		D4F0A1122449E71F004228A1 /* SHAAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0A1112449E71F004228A1 /* SHAAlgorithm.swift */; };
+		D4F0A1132449E71F004228A1 /* SHAAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0A1112449E71F004228A1 /* SHAAlgorithm.swift */; };
+		D4F0A1162449E83F004228A1 /* SHAAlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0A1152449E83F004228A1 /* SHAAlgorithmTests.swift */; };
+		D4F0A11A2449E89A004228A1 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F0A1182449E89A004228A1 /* img.png */; };
+		D4F0A11B2449E89A004228A1 /* 258.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4F0A1192449E89A004228A1 /* 258.pdf */; };
+		D4F0A11D2449E8FA004228A1 /* SHADigestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0A11C2449E8FA004228A1 /* SHADigestTests.swift */; };
+		D4F0A1202449E9D6004228A1 /* SHADigestImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0A11F2449E9D6004228A1 /* SHADigestImporter.swift */; };
+		D4F0A1212449E9D6004228A1 /* SHADigestImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0A11F2449E9D6004228A1 /* SHADigestImporter.swift */; };
+		D4F0A1242449EA16004228A1 /* SHADigestImporterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F0A1232449EA16004228A1 /* SHADigestImporterTests.swift */; };
+		D4F0A1292449EA6A004228A1 /* shas.csv in Resources */ = {isa = PBXBuildFile; fileRef = D4F0A1252449EA6A004228A1 /* shas.csv */; };
+		D4F0A12A2449EA6A004228A1 /* shas.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4F0A1262449EA6A004228A1 /* shas.txt */; };
+		D4F0A12B2449EA6A004228A1 /* shas-mixed.csv in Resources */ = {isa = PBXBuildFile; fileRef = D4F0A1272449EA6A004228A1 /* shas-mixed.csv */; };
+		D4F0A12C2449EA6A004228A1 /* shas-messy.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4F0A1282449EA6A004228A1 /* shas-messy.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +78,21 @@
 		D4BEE203241E6203002D85DC /* ArgumentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsTests.swift; sourceTree = "<group>"; };
 		D4BEE205241E62EF002D85DC /* ArrayElementAfterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayElementAfterTests.swift; sourceTree = "<group>"; };
 		D4F0A1032449E4B0004228A1 /* Issues.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Issues.md; sourceTree = "<group>"; };
+		D4F0A1042449E57D004228A1 /* DataHexStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHexStringExtension.swift; sourceTree = "<group>"; };
+		D4F0A1082449E5F2004228A1 /* DataHexStringExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHexStringExtensionTests.swift; sourceTree = "<group>"; };
+		D4F0A10A2449E66B004228A1 /* URLProcessStreamExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProcessStreamExtension.swift; sourceTree = "<group>"; };
+		D4F0A10E2449E6E1004228A1 /* SHADigest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHADigest.swift; sourceTree = "<group>"; };
+		D4F0A1112449E71F004228A1 /* SHAAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHAAlgorithm.swift; sourceTree = "<group>"; };
+		D4F0A1152449E83F004228A1 /* SHAAlgorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHAAlgorithmTests.swift; sourceTree = "<group>"; };
+		D4F0A1182449E89A004228A1 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+		D4F0A1192449E89A004228A1 /* 258.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 258.pdf; sourceTree = "<group>"; };
+		D4F0A11C2449E8FA004228A1 /* SHADigestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHADigestTests.swift; sourceTree = "<group>"; };
+		D4F0A11F2449E9D6004228A1 /* SHADigestImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHADigestImporter.swift; sourceTree = "<group>"; };
+		D4F0A1232449EA16004228A1 /* SHADigestImporterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHADigestImporterTests.swift; sourceTree = "<group>"; };
+		D4F0A1252449EA6A004228A1 /* shas.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shas.csv; sourceTree = "<group>"; };
+		D4F0A1262449EA6A004228A1 /* shas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shas.txt; sourceTree = "<group>"; };
+		D4F0A1272449EA6A004228A1 /* shas-mixed.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "shas-mixed.csv"; sourceTree = "<group>"; };
+		D4F0A1282449EA6A004228A1 /* shas-messy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "shas-messy.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +136,8 @@
 		D4119C482244CCA7005909B2 /* FindSha */ = {
 			isa = PBXGroup;
 			children = (
+				D4F0A11E2449E9BE004228A1 /* Importers */,
+				D4F0A10D2449E6D0004228A1 /* Model */,
 				D4119C522244CD44005909B2 /* Extensions */,
 				D4119C492244CCA7005909B2 /* main.swift */,
 				D4119C502244CCF2005909B2 /* Arguments.swift */,
@@ -116,6 +153,8 @@
 			children = (
 				D4119C532244CD55005909B2 /* ArrayElementAfterExtension.swift */,
 				D4119C7A22452F63005909B2 /* NSDataHexString.swift */,
+				D4F0A1042449E57D004228A1 /* DataHexStringExtension.swift */,
+				D4F0A10A2449E66B004228A1 /* URLProcessStreamExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -123,15 +162,74 @@
 		D4119C682244CEDD005909B2 /* FindShaTests */ = {
 			isa = PBXGroup;
 			children = (
+				D4F0A1222449E9EB004228A1 /* ImportersTests */,
+				D4F0A1172449E872004228A1 /* TestFiles */,
+				D4F0A1142449E827004228A1 /* ModelTests */,
+				D4F0A1072449E58B004228A1 /* ExtensionsTests */,
 				D4BEE201241E5A5D002D85DC /* empty.txt */,
 				D4BEE1FD241E57D4002D85DC /* text-document.pdf */,
 				D4119C6B2244CEDD005909B2 /* Info.plist */,
 				D4BEE1FB241E573E002D85DC /* HashTests.swift */,
 				D4BEE1FF241E57F3002D85DC /* text-markdown-document.md */,
 				D4BEE203241E6203002D85DC /* ArgumentsTests.swift */,
-				D4BEE205241E62EF002D85DC /* ArrayElementAfterTests.swift */,
 			);
 			path = FindShaTests;
+			sourceTree = "<group>";
+		};
+		D4F0A1072449E58B004228A1 /* ExtensionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4BEE205241E62EF002D85DC /* ArrayElementAfterTests.swift */,
+				D4F0A1082449E5F2004228A1 /* DataHexStringExtensionTests.swift */,
+			);
+			path = ExtensionsTests;
+			sourceTree = "<group>";
+		};
+		D4F0A10D2449E6D0004228A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4F0A10E2449E6E1004228A1 /* SHADigest.swift */,
+				D4F0A1112449E71F004228A1 /* SHAAlgorithm.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4F0A1142449E827004228A1 /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4F0A1152449E83F004228A1 /* SHAAlgorithmTests.swift */,
+				D4F0A11C2449E8FA004228A1 /* SHADigestTests.swift */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		D4F0A1172449E872004228A1 /* TestFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D4F0A1282449EA6A004228A1 /* shas-messy.txt */,
+				D4F0A1272449EA6A004228A1 /* shas-mixed.csv */,
+				D4F0A1252449EA6A004228A1 /* shas.csv */,
+				D4F0A1262449EA6A004228A1 /* shas.txt */,
+				D4F0A1192449E89A004228A1 /* 258.pdf */,
+				D4F0A1182449E89A004228A1 /* img.png */,
+			);
+			path = TestFiles;
+			sourceTree = "<group>";
+		};
+		D4F0A11E2449E9BE004228A1 /* Importers */ = {
+			isa = PBXGroup;
+			children = (
+				D4F0A11F2449E9D6004228A1 /* SHADigestImporter.swift */,
+			);
+			path = Importers;
+			sourceTree = "<group>";
+		};
+		D4F0A1222449E9EB004228A1 /* ImportersTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4F0A1232449EA16004228A1 /* SHADigestImporterTests.swift */,
+			);
+			path = ImportersTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +313,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F0A11B2449E89A004228A1 /* 258.pdf in Resources */,
+				D4F0A12A2449EA6A004228A1 /* shas.txt in Resources */,
 				D4BEE1FE241E57D4002D85DC /* text-document.pdf in Resources */,
+				D4F0A12B2449EA6A004228A1 /* shas-mixed.csv in Resources */,
+				D4F0A12C2449EA6A004228A1 /* shas-messy.txt in Resources */,
 				D4BEE200241E57F3002D85DC /* text-markdown-document.md in Resources */,
 				D4BEE202241E5A5D002D85DC /* empty.txt in Resources */,
+				D4F0A11A2449E89A004228A1 /* img.png in Resources */,
+				D4F0A1292449EA6A004228A1 /* shas.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,9 +333,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4119C7822452F33005909B2 /* Hash.swift in Sources */,
+				D4F0A1052449E57D004228A1 /* DataHexStringExtension.swift in Sources */,
 				D4119C562244CD97005909B2 /* CLI.swift in Sources */,
+				D4F0A10F2449E6E1004228A1 /* SHADigest.swift in Sources */,
+				D4F0A1122449E71F004228A1 /* SHAAlgorithm.swift in Sources */,
 				D4119C512244CCF2005909B2 /* Arguments.swift in Sources */,
 				D4119C4A2244CCA7005909B2 /* main.swift in Sources */,
+				D4F0A10B2449E66B004228A1 /* URLProcessStreamExtension.swift in Sources */,
+				D4F0A1202449E9D6004228A1 /* SHADigestImporter.swift in Sources */,
 				D4119C542244CD55005909B2 /* ArrayElementAfterExtension.swift in Sources */,
 				D4119C7B22452F63005909B2 /* NSDataHexString.swift in Sources */,
 			);
@@ -241,14 +350,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F0A1062449E57D004228A1 /* DataHexStringExtension.swift in Sources */,
+				D4F0A1162449E83F004228A1 /* SHAAlgorithmTests.swift in Sources */,
 				D4119C712244CF17005909B2 /* Arguments.swift in Sources */,
 				D4BEE206241E62EF002D85DC /* ArrayElementAfterTests.swift in Sources */,
+				D4F0A1102449E6E1004228A1 /* SHADigest.swift in Sources */,
 				D4119C6F2244CF12005909B2 /* main.swift in Sources */,
+				D4F0A1092449E5F2004228A1 /* DataHexStringExtensionTests.swift in Sources */,
+				D4F0A1132449E71F004228A1 /* SHAAlgorithm.swift in Sources */,
+				D4F0A1242449EA16004228A1 /* SHADigestImporterTests.swift in Sources */,
+				D4F0A10C2449E66B004228A1 /* URLProcessStreamExtension.swift in Sources */,
 				D4119C702244CF15005909B2 /* CLI.swift in Sources */,
 				D4119C722244CF1A005909B2 /* ArrayElementAfterExtension.swift in Sources */,
 				D4BEE1FC241E573E002D85DC /* HashTests.swift in Sources */,
+				D4F0A1212449E9D6004228A1 /* SHADigestImporter.swift in Sources */,
 				D4119C7922452F33005909B2 /* Hash.swift in Sources */,
 				D4BEE204241E6203002D85DC /* ArgumentsTests.swift in Sources */,
+				D4F0A11D2449E8FA004228A1 /* SHADigestTests.swift in Sources */,
 				D4119C7C22452F63005909B2 /* NSDataHexString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -362,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;

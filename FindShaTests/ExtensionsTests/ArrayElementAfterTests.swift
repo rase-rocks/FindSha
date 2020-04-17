@@ -1,11 +1,3 @@
-//
-//  ArrayElementAfterTests.swift
-//  FindShaTests
-//
-//  Created by Robert Atherton on 15/03/2020.
-//  Copyright © 2020 Robert Atherton. All rights reserved.
-//
-
 import XCTest
 
 class ArrayElementAfterTests: XCTestCase {
