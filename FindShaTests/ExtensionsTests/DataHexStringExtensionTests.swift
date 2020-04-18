@@ -11,6 +11,21 @@ class DataHexStringTests: XCTestCase {
         
     }
     
+    func testKnownGoodValue() {
+        
+        let testString = "This is the string"
+        let hex = testString.data(using: .utf8)!.hex
+        let expected = "546869732069732074686520737472696e67"
+        
+        XCTAssertEqual(hex, expected)
+        
+        let data = Data(hexString: hex)!
+        let returnedString = String(data: data, encoding: .utf8)!
+        
+        XCTAssertEqual(returnedString, testString)
+        
+    }
+    
     func testInitFromHexString() {
         
         let hexString = "FFFFFFFF".lowercased()

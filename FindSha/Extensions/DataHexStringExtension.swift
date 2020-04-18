@@ -26,8 +26,14 @@ extension Data {
     }
     
     var hex: String {
-        return self
-            .reduce(into: "") { $0.append(contentsOf: String(format: "%02hhx", $1)) }
+        
+        var hexString   = ""
+        for byte in self {
+            hexString += String(format:"%02x", UInt8(byte))
+        }
+
+        return hexString
+        
     }
     
 }
