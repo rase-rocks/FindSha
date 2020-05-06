@@ -39,7 +39,7 @@ You could also add the folder to your `PATH` environment variable.
 | Long Form | Short Form  | Description                    |
 |-----------|-------------|--------------------------------|
 | --in      | -i          | The location to search         |
-| --sha     | -s          | The hash to search for (sha256)|
+| --sha     | -s          | The hash to search for         |
     
 Rather than typing in a hash it is probably easier to copy the hash from somewhere else and use the command below.
 
@@ -65,4 +65,13 @@ SHA256(important-document.pdf)= e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c
 The SHA256 hash for `important-document.pdf` therefore is `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`.
 
 (The file was zero bytes long in this case).
+
+To get just the digest from the output of openssl try:
+
+```sh
+% openssl sha256 importmant-document.pdf | cut -d " " -f 2 | pbcopy
+// No output its gone to the clipboard
+```
+
+The SHA256 hash will now be in the clipboard ready to be pasted.
 
